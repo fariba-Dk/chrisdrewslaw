@@ -69,8 +69,8 @@ body {
 
 .btn-outline-light {
   border-radius: 04%;
-  color: #525252;
-  background-color: #faeeee;
+  color: black;
+  background-color:#B9C2CB;
   background-color:transparent;
   border-color: #b8918e;
   font-size: 1rem;
@@ -81,30 +81,36 @@ body {
 /* ~~~~~~~~~~~  About Start ~~~~~~~~~*/
 #about .btn{
   border-radius: 5px;
-  border: 2px transparent;
+  border: 2px color #b8918e;
   width: 40%;
   padding: 15px 22px;
-  background:#000;
-margin-top:10px;
+  margin-top:10px;
+  color:black;
+  background-color:transparent;
+  font-size: 1rem;
+  font-weight: 700;
+  color: black;
+
 }
+/*
 #about .btn a{
-  color: #fff;
+  color:#B9C2CB;
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
-  text-transform: uppercase;
-}
+
+} */
 #about .btn:hover{
-border:2px solid #1ebba3;
+border:2px solid #b8918e;;
 cursor:pointer;
 }
 /* ~~~~~~~~~~~  About Start ~~~~~~~~~*/
 #practice-area .button{
   border-radius: 5px;
-  border: 2px transparent;
+  border: 2px color #b8918e;
   width: 40%;
   padding: 15px 22px;
-  background:#000;
+  background:#B9C2CB;
 margin-top:10px;
 }
 #practice-area .button a{
@@ -115,7 +121,7 @@ margin-top:10px;
   text-transform: uppercase;
 }
 #practice-area .button:hover{
-border:2px solid #1ebba3;
+border:2px solid #b8918e;
 cursor:pointer;
 }
 

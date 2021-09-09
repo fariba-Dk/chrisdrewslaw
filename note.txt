@@ -1,81 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
-
-body {
-  overflow-x: hidden;
-  font-family: 'DM Sans', sans-serif;
-  color: 021331;
-}
-/* N A V I G A T I O N */
-.navbar {
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 0.9rem;
-  letter-spacing: 0.1rem;
-  background: rgba(0, 0, 0, 0.678) !important;
-}
-
-.navbar-brand img {
-  height: 3.5rem;
-}
-.navbar-nav li {
-  padding-right: 1rem;
-}
-.navbar-dark .navbar-nav .nav-link {
-  color: white;
-  padding-top: 0.8rem;
-}
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: #b8918e;
-}
-
-/* L A N D I N G    P A G E */
-
-.home-inner {
-  background-image: url(img/background.jpg);
-}
-.caption {
-  width: 100%;
-  max-width: 100%;
-  position: absolute;
-  top: 15%;
-  z-index: 1;
-  color: #525252;
-  text-transform: uppercase;
-}
-.caption h1 {
-  font-size: 3.1rem;
-  font-weight: 700;
-  letter-spacing: 0.3rem;
-  text-shadow: 0.1rem 0.1rem 0.2rem black;
-  padding-bottom: 1rem;
-}
-.caption h3 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  letter-spacing: 0.3rem;
-  text-shadow: 0.1rem 0.1rem 0.2rem black;
-  padding-bottom: 1rem;
-}
-.btn-lg {
-  border-width: medium;
-  border-radius: 0;
-  padding: 0.6rem 1.3rem;
-  font-size: 1.1rem;
-}
-
-.btn-outline-light {
-  border-radius: 04%;
-  color: #525252;
-  background-color: #faeeee;
-  background-color:transparent;
-  border-color: #b8918e;
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.3rem;
-  text-shadow: 0.01rem 0.01rem 0.07rem black;
-}
-
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
@@ -114,30 +36,28 @@ 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
 </head>
 <body>
 
-<div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p>
-</div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-  </div>
-</div>
+`````` about me section
+	<!--- About Section Start -->
+		<div id="about" class="container mt-3 mb-5">
+			<div class="post-heading text-center">
+				<h3 class="display-4 font-weight-bold">About Me</h3>
+				<hr class="w-50 mx-auto pb-5">
+			</div>
 
-</body>
-</html>
+			<div class="row">
+					<div class="col-lg-6 col-md-6 col-12">
+						<img src="img/Chris-drews-pic.jpeg" width="400px" height="400px" class="image-fluid">
+					</div>
+
+					<div class="col-lg-6 col-md-6 col-12">
+							<h2>My Story</h2>
+							<hr>
+								<p class="lead">Christopher Drews, Former Deputy Chief Counsel - The Walt Disney Company, responsible for oversight of all Legal and Business Affairs for Disney's interactive and new media businesses, including, Disney Interactive (video games), Maker Studios (MCN/Influencer Networks), Playdom (Social Gaming), Club Penguin (Kids Virtual Worlds), and Connected Devices (IoT), among others. Twenty-five year veteran in technology transactions, video games, interactive, short form content, licensing, patent, trademark, copyright, AR/VR, advertising, regulatory compliance, COPPA, GDPR, CCPA, privacy, M&A, employment, product development & global launch, SaaS, etc.
+								</p>
+								<button class="btn btn-outline-light btn-lg">
+									<a href="#">CONTACT ME</a>
+								</button>
+					</div>
+				</div>
+	</div>
