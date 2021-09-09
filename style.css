@@ -63,6 +63,9 @@ body {
   padding: 0.6rem 1.3rem;
   font-size: 1.1rem;
 }
+.display-4{
+    color: #525252;
+}
 
 .btn-outline-light {
   border-radius: 04%;
@@ -74,6 +77,46 @@ body {
   font-weight: 700;
   letter-spacing: 0.3rem;
   text-shadow: 0.01rem 0.01rem 0.07rem black;
+}
+/* ~~~~~~~~~~~  About Start ~~~~~~~~~*/
+#about .btn{
+  border-radius: 5px;
+  border: 2px transparent;
+  width: 40%;
+  padding: 15px 22px;
+  background:#000;
+margin-top:10px;
+}
+#about .btn a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#about .btn:hover{
+border:2px solid #1ebba3;
+cursor:pointer;
+}
+/* ~~~~~~~~~~~  About Start ~~~~~~~~~*/
+#practice-area .button{
+  border-radius: 5px;
+  border: 2px transparent;
+  width: 40%;
+  padding: 15px 22px;
+  background:#000;
+margin-top:10px;
+}
+#practice-area .button a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#practice-area .button:hover{
+border:2px solid #1ebba3;
+cursor:pointer;
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
