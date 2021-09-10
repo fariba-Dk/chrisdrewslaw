@@ -1,4 +1,10 @@
-/*============ BOOTSTRAP BREAK POINTS:
+FOR BACKGROUND IMAGE TO COVETR ENTIRE SITE paste this on line 61
+
+			<div class="home-inner">
+			{% comment %}  if YOU PUT 2 CLOSING DIVS IT WILL TAKE BACKGROUND PIC OUT ******** THIS DIV TAKES BACKGROUND COVER OFF FOR THE WHOLE PAGE {% endcomment %}
+
+
+			*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
