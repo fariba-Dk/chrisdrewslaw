@@ -13,6 +13,11 @@ body {
   letter-spacing: 0.1rem;
   background: rgba(0, 0, 0, 0.678) !important;
 }
+.offset:before{
+  display:block;
+  content:"";
+  height: 6px;
+}
 
 .navbar-brand img {
   height: 3.5rem;
