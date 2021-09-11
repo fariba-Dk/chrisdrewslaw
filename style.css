@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
 
-body {
+#body {
   overflow-x: hidden;
   font-family: 'DM Sans', sans-serif;
   color: 021331;
@@ -38,6 +38,9 @@ body {
 
 .home-inner {
   background-image: url(img/background.jpg);
+}
+.home-inner-second{
+  background-image: url(img/Background-light.jpg);
 }
 .caption {
   width: 100%;
@@ -94,7 +97,6 @@ body {
   background-color:transparent;
   font-size: 1rem;
   font-weight: 700;
-  color: black;
 
 }
 /*
@@ -140,7 +142,9 @@ cursor:pointer;
   background: #f8fafb;
 }
 
-
+.container.pt-2 {
+    width:  100%;
+}
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
