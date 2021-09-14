@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
 
-#body {
+body {
   overflow-x: hidden;
   font-family: 'DM Sans', sans-serif;
   color: 021331;
+}
+.offset:before{
+  display: block;
+  content: "";
+  height: 6rem;
 }
 /* N A V I G A T I O N */
 .navbar {
