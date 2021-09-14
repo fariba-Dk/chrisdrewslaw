@@ -13,11 +13,7 @@
   letter-spacing: 0.1rem;
   background: rgba(0, 0, 0, 0.678) !important;
 }
-.offset:before{
-  display:block;
-  content:"";
-  height: 6px;
-}
+
 
 .navbar-brand img {
   height: 3.5rem;
@@ -32,6 +28,11 @@
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #b8918e;
+}
+.offset:before{
+  display:block;
+  content:"";
+  height: 6px;
 }
 
 /* L A N D I N G    P A G E */
@@ -94,15 +95,15 @@
 }
 /* ~~~~~~~~~~~  About Start ~~~~~~~~~*/
 #about .btn{
-  border-radius: 5px;
-  border: 2px color #b8918e;
-  width: 40%;
-  padding: 15px 22px;
-  margin-top:10px;
+  border-radius: 04%;
   color:black;
+  background-color:#B9C2CB;
   background-color:transparent;
+  border-color: #b8918e;
   font-size: 1rem;
   font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.01rem 0.01rem 0.07rem;
 
 }
 /*
