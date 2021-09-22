@@ -5,9 +5,10 @@ body {
   font-family: 'DM Sans', sans-serif;
   color: 021331;
 }
-.offset:before{
+
+.offset:before {
   display: block;
-  content: "";
+  content: '';
   height: 6rem;
 }
 /* N A V I G A T I O N */
@@ -18,7 +19,6 @@ body {
   letter-spacing: 0.1rem;
   background: rgba(0, 0, 0, 0.678) !important;
 }
-
 
 .navbar-brand img {
   height: 3.5rem;
@@ -34,9 +34,9 @@ body {
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #b8918e;
 }
-.offset:before{
-  display:block;
-  content:"";
+.offset:before {
+  display: block;
+  content: '';
   height: 6px;
 }
 
@@ -45,7 +45,7 @@ body {
 .home-inner {
   background-image: url(img/background.jpg);
 }
-.home-inner-second{
+.home-inner-second {
   background-image: url(img/Background-light.jpg);
 }
 .caption {
@@ -77,7 +77,7 @@ body {
   padding: 0.6rem 1.3rem;
   font-size: 1.1rem;
 }
-.display-4{
+.display-4 {
   color: #525252;
   font-size: 2.5rem;
   font-weight: 700;
@@ -89,8 +89,8 @@ body {
 .btn-outline-light {
   border-radius: 04%;
   color: black;
-  background-color:#B9C2CB;
-  background-color:transparent;
+  background-color: #b9c2cb;
+  background-color: transparent;
   border-color: #b8918e;
   font-size: 1rem;
   font-weight: 700;
@@ -98,45 +98,44 @@ body {
   text-shadow: 0.01rem 0.01rem 0.07rem black;
 }
 /* ~~~~~~~~~~~  About Start ~~~~~~~~~*/
-#about .btn{
+#about .btn {
   border-radius: 04%;
-  color:black;
-  background-color:#B9C2CB;
-  background-color:transparent;
+  color: black;
+  background-color: #b9c2cb;
+  background-color: transparent;
   border-color: #b8918e;
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.3rem;
   text-shadow: 0.01rem 0.01rem 0.07rem;
-
 }
-#about .btn:hover{
-border:2px solid #b8918e;;
-cursor:pointer;
+#about .btn:hover {
+  border: 2px solid #b8918e;
+  cursor: pointer;
 }
 
-#practice-area .button{
+#practice-area .button {
   border-radius: 5px;
   border: 2px color #b8918e;
   width: 40%;
   padding: 15px 22px;
-  background:#B9C2CB;
-margin-top:10px;
+  background: #b9c2cb;
+  margin-top: 10px;
 }
-#practice-area .button a{
+#practice-area .button a {
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
 }
-#practice-area .button:hover{
-border:2px solid #b8918e;
-cursor:pointer;
+#practice-area .button:hover {
+  border: 2px solid #b8918e;
+  cursor: pointer;
 }
 
 /* ~~~~~~~~~~~  Blog Start ~~~~~~~~~*/
-#sec1{
+#sec1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -146,10 +145,17 @@ cursor:pointer;
 }
 
 .container.pt-2 {
-    width:  100%;
+  width: 100%;
 }
-.footer{
-  
+.footer {
+}
+.contact {
+  border: 1px solid red;
+  text-align: right;
+  padding-right: 50px;
+}
+.contact:hover {
+  color: #b8918e;
 }
 /*============ BOOTSTRAP BREAK POINTS:
 
