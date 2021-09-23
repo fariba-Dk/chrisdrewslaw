@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+​
+body {
+  overflow-x: hidden;
+  font-family: 'DM Sans', sans-serif;
+  color: 021331;
+}
+​
+.offset:before {
+  display: block;
+  content: '';
+  height: 6rem;
+}
+/* N A V I G A T I O N */
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background: rgba(0, 0, 0, 0.678) !important;
+}
+​
+.navbar-brand img {
+  height: 3.5rem;
+}
+.navbar-nav li {
+  padding-right: 1rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: 0.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #b8918e;
+}
+.offset:before {
+  display: block;
+  content: '';
+  height: 6px;
+}
+​
+/* L A N D I N G    P A G E */
+​
+.home-inner {
+  background-image: url(img/background.jpg);
+}
+.home-inner-second {
+  background-image: url(img/Background-light.jpg);
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 15%;
+  z-index: 1;
+  color: #525252;
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 3.1rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.2rem black;
+  padding-bottom: 1rem;
+}
+.caption h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.2rem black;
+  padding-bottom: 1rem;
+}
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: 0.6rem 1.3rem;
+  font-size: 1.1rem;
+}
+.display-4 {
+  color: #525252;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.2rem black;
+  padding-bottom: 1rem;
+}
+​
+.btn-outline-light {
+  border-radius: 04%;
+  color: black;
+  background-color: #b9c2cb;
+  background-color: transparent;
+  border-color: #b8918e;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.01rem 0.01rem 0.07rem black;
+}
+/* ~~~~~~~~~~~  About Start ~~~~~~~~~*/
+#about .btn {
+  border-radius: 04%;
+  color: black;
+  background-color: #b9c2cb;
+  background-color: transparent;
+  border-color: #b8918e;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.01rem 0.01rem 0.07rem;
+}
+#about .btn:hover {
+  border: 2px solid #b8918e;
+  cursor: pointer;
+}
+​
+#practice-area .button {
+  border-radius: 5px;
+  border: 2px color #b8918e;
+  width: 40%;
+  padding: 15px 22px;
+  background: #b9c2cb;
+  margin-top: 10px;
+}
+#practice-area .button a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#practice-area .button:hover {
+  border: 2px solid #b8918e;
+  cursor: pointer;
+}
+​
+/* ~~~~~~~~~~~  Blog Start ~~~~~~~~~*/
+#sec1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #f8fafb;
+}
+​
+.container.pt-2 {
+  width: 100%;
+}
+.footer {
+}
+.contact{
+  position:absolute;
+  top: 100px;
+  right: 25px;
+}
+/*============ BOOTSTRAP BREAK POINTS:
+​
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+​
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+​
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+​
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+​
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+​
+=============*/
