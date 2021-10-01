@@ -197,7 +197,12 @@
   letter-spacing: 0.1rem;
   background: rgba(0, 0, 0, 0.678);
 }
-@media (min-width: 1200px) {
+@media (min-width: 600px) {
+  .contact {
+    position: absolute;
+    top: 0px;
+    right: 60px;
+  }
 }
 /*============ BOOTSTRAP BREAK POINTS:
 
