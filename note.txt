@@ -146,3 +146,50 @@ html <p class="thank">THANK YOU!</p>
 <div id="stars"></div>
 <div id="stars2"></div>
 <div id="stars3"></div>
+
+
+ahh okay understood
+for each section, give it a min-height
+I think min-height: 90vh; should be good
+basically you're saying that by a minimum it should take up 90% of the height of the window
+so for example: #about {
+min-height: 90vh;
+}(Edited)
+
+View Daniel’s profileDaniel Michael
+Daniel Michael  4:00 PM
+you can see in this example: https://codepen.io/sheriffderek/pen/cc7bb6a780bde1e95087858cffa9a591?editors=1100 in the css .welcome .inner-column, min-height is 90vh meaning it always will take 90% of height of screen at that area.
+
+SCSS version
+codepen.io
+View Daniel’s profileDaniel Michael
+Daniel Michael  4:01 PM
+and then to center the content vertically and horizottally: you can do #about {
+min-height: 90vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#about {
+min-height: 90vh;
+display: flex;
+align-items: center;
+justify-content: center;
+scroll-margin-top: 5em
+}
+I also recommend adding  scroll-margin-top: 5em;
+and maybe instead of doing it on #about, add another class named: page-section and add these styles to .page-section
+so every section like about should have a class="page-section"
+View Daniel’s profileDaniel Michael
+Daniel Michael  4:55 PM
+this stackoverflow also explains it: https://stackoverflow.com/questions/22247178/html-sections-100-height-of-viewport
+
+HTML sections 100% height of viewport
+stackoverflow.com • 1 min read
+TODAY
+Fariba Dadko sent the following messages at 10:13 AM
+View Fariba’s profileFariba Dadko
+Fariba Dadko (She/Her)  10:13 AM
+Thank you so much Dan; I'm working on it now. Many Gracias
+View Fariba’s profileFariba Dadko
+Fariba Dadko (She/Her)  10:16 AM

@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" type="text/css" href="style.css" />
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -12,7 +13,7 @@
     <!--- End of Script Source Files -->
 </head>
 <body data-spy="" data-target="#navbarResponsive">
-	<div id="home">
+	<id id="home">
 
   	<!---------------------- Navbar Start ------------------------->
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
@@ -26,7 +27,7 @@
 				data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
+		<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="#home">Home</a>
@@ -37,15 +38,16 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#practice-area">Practice Area</a>
 					</li>
+
 					<li class="nav-item">
+						<a class="nav-link" href="#testimonials">Testimonial</a>
+					</li>
+						<li class="nav-item">
 						<a class="nav-link" href="#engagement-models"
 							>Engagement Models</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#testimonials">Testimonial</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#blog">Blog</a>
+						<a class="nav-link" href="#contact">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -53,56 +55,62 @@
 	<!---------------------- Navbar Ends ----------------------------->
 
 
-	<!---------------------- Background Starts ----------------------->
-		<img src='img/background-Moving.gif'>
-		<div class="caption text-center">
-			<button class="btn btn-outline-light btn-lg">
-				<a class="btn-lg" style="color:rgb(39, 38, 38)" href="#contact">CONTACT ME</a>
-			</button>
-			<div>
-				<br/>
-				<br/>
-				<h1>Christopher Drews</h1>
-				<hr class="w-50 mx-auto pb-5">
-					<a class="btn-lg" style="color:rgb(39, 38, 38)" href="https://www.hg.org/information-technology-law.html">
-						<h3>Technology</h3>
-					</a>
-					<a class="btn-lg" style="color:rgb(39, 38, 38)" href="https://www.cpsc.gov/Business--Manufacturing/International/Topics/Regulations-Laws-and-Information-by-Product-for-Manufacturers-Importers-Distributors-and-Retailers">
-						<h3>Product</h3>
-					</a>
-					<a class="btn-lg" style="color:rgb(39, 38, 38)" href="https://www.newmediarights.org/about_us">
-					<h3>New Media</h3>
-					</a>
-							<a class="btn-lg" style="color:rgb(39, 38, 38)" href="#">
-								<h3>Law</h3>
-							</a>
-			</div>
+	<!------------- img/background.mp4--------- Background Starts ----------------------->
+	<video class="img-fluid" autoplay loop height=100% width=100%>
+		<source src='img/background.mp4' type="video/mp4" />
+	</video>
+
+	<div class="caption text-center">
+		<button class="btn btn-outline-light btn-lg contact">
+			<a class="btn-lg" style="color:#525252" href="#contact">CONTACT ME</a>
+		</button>
+		<h3 style="font-size:30px">Law Office</h3>
+			<h3 style="font-size:25px">of</h3>
+			<h1>Christopher Drews</h1>
+
+			<hr class="accessory">
+		<br/>
+		<br/>
+
+		<a style="color:#525252" href="https://www.hg.org/information-technology-law.html">
+		<h3 style="font-size:35px">Technology</h3>
+		<a style="color:#525252" href="https://www.hg.org/information-technology-law.html">
+		<h3 style="font-size:35px"> New Media</h3>
+		<a style="color:#525252" href="https://www.hg.org/information-technology-law.html">
+		<h3 style="font-size:35px">Product</h3>
+			<h3 style="font-size:35px"> Entertainment</h3>
+		<a style="color:#525252" href="https://www.hg.org/information-technology-law.html">
+
 		</div>
+	</div>
+</div>
 
 	<!---------------------- Background Ends ----------------------->
 
 	<!---------------------- About Starts -------------------------->
-		<div id="about" class="offset container mt-3 mb-5">
-			<div class="post-heading text-center">
-				<h3 class="display-4 font-weight-bold">About</h3>
-				<hr class="w-50 mx-auto pb-5">
-			</div>
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-12">
-					<img src="img/Chris-Drews-About-imahe.jpg" width="350px" height="400px" class="image-fluid">
-				</div>
-
-				<div class="col-lg-6 col-md-6 col-12">
-					<h4>My Story</h4>
-					<p class="lead">Christopher Drews, Former Deputy Chief Counsel - The Walt Disney Company, responsible for oversight of all Legal and Business Affairs for Disney's interactive and new media businesses, including, Disney Interactive (video games), Maker Studios (MCN/Influencer Networks), Playdom (Social Gaming), Club Penguin (Kids Virtual Worlds), and Connected Devices (IoT), among others. Twenty-five year veteran in technology transactions, video games, interactive, short form content, licensing, patent, trademark, copyright, AR/VR, advertising, regulatory compliance, COPPA, GDPR, CCPA, privacy, M&A, employment, product development & global launch, SaaS, etc.
-					</p>
-					<button class="btn btn-outline-light btn-lg">
-						<a style="color:black" href="#contact">CONTACT ME</a>
-					</button>
-				</div>
-			</div>
-
+	<div id="about" class="offset container mt-3 mb-5">
+		<div class="post-heading text-center style=height: 100vh%">
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<h3 class="display-4 font-weight-bold">About</h3>
+		<hr class="accessory">
+		<br/>
+		<img src="img/Chris-Drews-About-imahe.jpg" width="350px" height="400px" class="image-fluid">
+	</div>
+	<br/>
+		<div class="post-heading text-center ">
+			<h4 style="font-size:30px" class="display-4 font-weight-bold">My Story</h4>
+			<p class="lead">Christopher Drews, Former Deputy Chief Counsel - The Walt Disney Company, responsible for oversight of all Legal and Business Affairs for Disney's interactive and new media businesses, including, Disney Interactive (video games), Maker Studios (MCN/Influencer Networks), Playdom (Social Gaming), Club Penguin (Kids Virtual Worlds), and Connected Devices (IoT), among others. Twenty-five year veteran in technology transactions, video games, privacy, M&A, employment, product development.
+			</p>
+			<button class="btn btn-outline-light btn-lg">
+				<a style="color:black" href="#contact">CONTACT ME</a>
+			</button>
 		</div>
+	</div>
+
+</div>
 	<!---------------------- About Ends ----------------------------->
 				<!--- Practice Area Starts -->
 		<div id="practice-area" class="offset container mt-3 mb-5">
@@ -112,7 +120,7 @@
 			<div class="post-heading text-center">
 				<br/>
 				<h3 class="display-4">Practice Area</h3>
-					<hr class="w-50 mx-auto pb-5">
+			<hr class="accessory">
 			</div>
 
 			<div class="row">
@@ -171,7 +179,7 @@
 					<div class="card">
 						<img src="img/Data-Security.JPG" height="280" class="card-img-top" alt="...">
 						<div class="card-body">
-							<h5 class="card-title">Privacy Compliance Data Security</h5>
+							<h5 class="card-title">Privacy, Data Security And Regulatory Compliance</h5>
 							<!-- <p class="card-text">Some text about services to discuss the scope of practice</p> -->
 							<a href="https://www.csoonline.com/article/3292578/california-consumer-privacy-act-what-you-need-to-know-to-be-compliant.html">More Info</a>
 						</div>
@@ -180,57 +188,17 @@
 				</div>
 		</div>
 											<!--- Practice Area End  -->
-											<!-- Engagement Area Start  -->
-		<div id="engagement-models" class="offset container mt-3 mb-5"></div>
-			<br/>
-				<br/>
-				<br/>
-				<br/>
-			<a href="#engagement-models"></a>
-			<div class="col=12 narrow text-center">
-			<h3 class="display-4 font-weight-bold">Engagement Models</h3>
-			<hr class="w-50 mx-auto pb-5">
-			<div class="jumbotron">
-				<div class='row text-center'>
-						<!-- I C O N S -->
-					<div class="col-md-4">
-						<div class="practice-area">
-
-							<i class="fas fa-play-circle fa-4x" data-fa-transform="shrink-3 up-5"></i>
-							<h3>Video Games</h3>
-							<p>licensing, patent, trademark, copyright, AR</p>
-														<a href="https://www.upcounsel.com/general-corporation-law#:~:text=The%20general%20corporation%20law%20states,as%20its%20purpose%20is%20legal.">More Info</a>
-						</div>
-						</div>
-																									<!-- I C O N S -->
-						<div class="col-md-4">
-							<div class="practice-area">
-								<i class="fas fa-sliders-h fa-4x" data-fa-transform="shrink-3 up-5"></i>
-								<h3>Intellectual Properties</h3>
-								<p>licensing, patent, trademark, copyright, AR</p>
-									<a href="https://www.upcounsel.com/general-corporation-law#:~:text=The%20general%20corporation%20law%20states,as%20its%20purpose%20is%20legal.">More Info</a>
-							</div>
-						</div>
-																									<!-- I C O N S -->
-						<div class="col-md-4">
-							<div class="practice-area">
-								<i class="fab fa-wpforms fa-4x" data-fa-transform="shrink-3 up-5"></i>
-								<h3>Film & Television</h3>
-								<p>licensing, patent, trademark, copyright, regulatory compliance</p>
-															<a href="https://www.upcounsel.com/general-corporation-law#:~:text=The%20general%20corporation%20law%20states,as%20its%20purpose%20is%20legal.">More Info</a>
-							</div>
-						</div>
-							<div class="col-md-4">
-						</div>
-																									<!-- I C O N S -->
-			</div>
-		</div>
-
 	<!---------------------- Testimonials Start --------------------->
+
 		<div id="testimonials" class="offset container mt-3 mb-5">
+
 			<div class="post-heading text-center">
-				<h3 class="display-4 font-weight-bold">Testimonials</h3>
-				<hr class="w-50 mx-auto pb-5">
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<h3 class="display-4 font-weight-bold">Testimonials</h3>
+		<hr class="accessory">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-12">
 				</div>
@@ -253,9 +221,7 @@
 			</div>
 			<br/>
 			<br/>
-			<br/>
 			<div class="post-heading text-left">
-					<hr class="w-50 mx-auto pb-5">
 				<div class="col-md-8">
 					<cite>Eric, CEO Of Hello-Fresh</cite>
 				</div>
@@ -274,7 +240,7 @@
 		</div>
 	<!---------------------- Testimonials Ends --------------------->
 
-	<!---------------------- Blog Start ---------------------------->
+	<!-- -------------------- Blog Start --------------------------
 		<div id="blog" class="offset container mt-3 mb-5">
 			<h4 class="display-4 font-weight-bold">Blog</h4>
 			<div class="jumbotron" id="sec1">
@@ -287,15 +253,62 @@
 				</form>
 			</div>
 		</div>
-	<!---------------------- Blog Ends ------------------------>
+	-------------------- Blog Ends ---------------------- -->
+
+											<!-- Engagement Area Start  -->
+		<div id="engagement-models" class="offset container mt-3 mb-5"></div>
+			<br/>
+				<br/>
+				<br/>
+				<br/>
+					<br/>
+				<br/>
+			<a href="#engagement-models"></a>
+			<div class="col=12 narrow text-center">
+			<h3 class="display-4 font-weight-bold">Engagement Models</h3>
+		<hr class="accessory">
+			<div class="jumbotron">
+				<div class='row text-center'>
+						<!-- I C O N S -->
+					<div class="col-md-4">
+						<div class="practice-area">
+
+							<i class="fas fa-play-circle fa-4x" data-fa-transform="shrink-3 up-5"></i>
+							<h3>Traditional Engagement</h3>
+							<p>Reasonable Hourly Rates</p>
+
+						</div>
+						</div>
+																									<!-- I C O N S -->
+						<div class="col-md-4">
+							<div class="practice-area">
+								<i class="fas fa-sliders-h fa-4x" data-fa-transform="shrink-3 up-5"></i>
+								<h3>Monthly Retainer</h3>
+								<p>Bank of Hours</p>
+
+							</div>
+						</div>
+																									<!-- I C O N S -->
+						<div class="col-md-4">
+							<div class="practice-area">
+								<i class="fab fa-wpforms fa-4x" data-fa-transform="shrink-3 up-5"></i>
+								<h3>Fractional General Council</h3>
+								<p>Quarterly or Annual Retainer</p>
+							</div>
+						</div>
+							<div class="col-md-4">
+						</div>
+																									<!-- I C O N S -->
+			</div>
+		</div>
 	<!---------------------- Contact Start ---------------------------->
 		<div id="contact" class="offset container w-50 mt-5 mb-5">
 				<div class="home-inner">
-						<!-- <img src='img/background.jpg' alt="background image" ></img> -->
+
 				<div class="post-heading text-center">
 					<h3 class="display-4 font-weight-bold">Contact Me</h3>
 				</div>
-				<form action="/action_page.php">
+				<form action="action_page.php">
 					<div class="form-group">
 							<input type="text" class="form-control" placeholder="Full Name:" id="email">
 					</div>
@@ -305,32 +318,29 @@
 					<div class="form-group">
 						<textarea type="email" class="form-control" placeholder="Your Text:" id="email"></textarea>
 					</div>
-					<button type="submit" class="btn btn-dark ml-2">Submit</button>
+				<button class="btn btn-outline-light btn-lg">
+				<a style="color:#525252" href="#contact">Submit</a>
+			</button>
 				</form>
 				</div>
 				</div>
 			</div>
 	<!---------------------- Contact Start ---------------------------->
-
 	<!---------------------- Footer Start ---------------------------->
-
-		<div class="container pt-2">
+		<div class="footer">
 			<footer style="background-color: #c2aead">
 			<!-- Grid container -->
-				<p class="btn btn-link btn-floating btn-lg text-dark m-1"><i class="fas fa-phone me-3"></i> 310 266 5738</p>
+				<p class="btn btn-link btn-floating btn-lg text-dark m-1"><i class="fas fa-phone me-3"></i> (310) 266-5738</p>
 				<p class="btn btn-link btn-floating btn-lg text-dark m-1"><i class="fas fa-envelope me-3"></i>
-							Chris@chrisDrewsLaw.com</p>
+							Chris@ChrisDrewsLaw.com</p>
 					<p class="btn btn-link btn-floating btn-lg text-dark m-1"><i class="fas fa-home me-3"></i> Los Angeles, CA, US</p>
-					<div class="btn btn-link btn-floating btn-lg text-dark m-1"style="background-color: #c2aead">
-				© 2021 Copyright:
-				<a class="text-dark" href="https://chrisdrews.com/">Chris Drews</a>
-
-			 </div>
-			</footer>
-		</div>
+					<footer class="text-center text-white" style="background-color: #f1f1f1;">
+  <div class=" jumbothron text-center text-dark p-3" style="background-color:#E9ECEF">
+    © 2021 :
+   <a class="text-dark" href="https://chrisdrews.com/">Chris Drews</a>
+  </div>
+</footer>
  <!---------------------- Footer Ends  -------------------------------->
-	</div>
-
 </body>
 </html>
 
