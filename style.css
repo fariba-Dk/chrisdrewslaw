@@ -42,29 +42,7 @@
 
 /* L A N D I N G    P A G E */
 
-.caption {
-  width: 100%;
-  max-width: 100%;
-  position: absolute;
-  top: 15%;
-  z-index: 1;
-  color: #525252;
-  text-transform: uppercase;
-}
-.caption h1 {
-  font-size: 3.1rem;
-  font-weight: 700;
-  letter-spacing: 0.3rem;
-  text-shadow: 0.1rem 0.1rem 0.2rem black;
-  padding-bottom: 1rem;
-}
-.caption h3 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  letter-spacing: 0.3rem;
-  text-shadow: 0.1rem 0.1rem 0.2rem black;
-  padding-bottom: 1rem;
-}
+
 
 .material-icons.md-24 {
   font-size: 24px;
@@ -203,6 +181,29 @@
     top: 0px;
     right: 60px;
   }
+  .caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 15%;
+  z-index: 1;
+  color: #525252;
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 3.1rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.2rem black;
+  padding-bottom: 1rem;
+}
+.caption h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.2rem black;
+  padding-bottom: 1rem;
+}
 }
 /*============ BOOTSTRAP BREAK POINTS:
 
