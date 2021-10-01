@@ -1,1 +1,4 @@
 note.txt
+
+# Run git rm -r --cached .
+# Now run git add .
