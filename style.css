@@ -118,7 +118,7 @@
     font-weight: 700;
     font-size: 0.9rem;
     letter-spacing: 0.1rem;
-  
+
     background: rgba(0, 0, 0, 0.678) !important;
   }
   .home {
@@ -153,11 +153,6 @@
     text-shadow: 0.1rem 0.1rem 0.2rem black;
     padding-bottom: 1rem;
   }
-  .contact {
-    position: absolute;
-    top: 0px;
-    right: 60px;
-  }
 
   .btn-lg {
     border-width: medium;
@@ -185,12 +180,10 @@
     letter-spacing: 0.3rem;
     text-shadow: 0.01rem 0.01rem 0.07rem black;
   }
-  .contact {
-    position: absolute;
-    top: 0px;
-    right: 60px;
-  }
-
+ .newspaper {
+  column-count: 3;
+  font-size: 20px;
+ }
   .accessory {
     height: 10px;
     background-image: radial-gradient(
