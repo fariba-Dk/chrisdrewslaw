@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
 
-.body {
-  overflow-x: hidden;
-  font-family: 'DM Sans', sans-serif;
-  color: 021331;
-}
+
 
 .offset:before {
   display: block;
@@ -63,6 +59,9 @@
 #practice-area {
   min-height: 90vh;
 }
+.jumbotron {
+    padding: 30px;
+}
 #practice-area .button {
   border-radius: 5px;
   border: 2px color #b8918e;
@@ -101,7 +100,7 @@
   color: #b8918e;
 }
 
-#testimonial {
+#specialization {
   min-height: 90vh;
 }
 .footer {
@@ -111,12 +110,20 @@
   background: rgba(0, 0, 0, 0.678);
 }
 @media (min-width: 570px) {
+  .body {
+  overflow-x: hidden;
+  font-family: 'DM Sans', sans-serif;
+  color: 021331;
+}
   .navbar {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 0.9rem;
     letter-spacing: 0.1rem;
     background: rgba(0, 0, 0, 0.678) !important;
+  }
+  .home{
+
   }
 
   .contact {
