@@ -101,6 +101,10 @@
 #specialization {
   min-height: 90vh;
 }
+.newspaper {
+  column-count: 2;
+  font-size: 20px;
+ }
 .footer {
   font-weight: 700;
   font-size: 0.9rem;
@@ -180,10 +184,7 @@
     letter-spacing: 0.3rem;
     text-shadow: 0.01rem 0.01rem 0.07rem black;
   }
- .newspaper {
-  column-count: 3;
-  font-size: 20px;
- }
+
   .accessory {
     height: 10px;
     background-image: radial-gradient(
