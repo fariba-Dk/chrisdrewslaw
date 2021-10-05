@@ -9,6 +9,7 @@
 
 .a.btn.btn-outline-light.btn-lg {
   font: white;
+
 }
 .navbar-brand img {
   height: 3.5rem;
@@ -132,7 +133,7 @@
   .contact {
     position: absolute;
     top: 0px;
-    right: 60px;
+    right: 100px;
   }
   .caption {
     width: 100%;
