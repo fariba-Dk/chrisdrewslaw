@@ -197,23 +197,26 @@
 					<h3 class="display-4 font-weight-bold">Contact Me</h3>
 					<hr class="accessory">
 			 </div>
-			<form action="action_page.php">
-				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Full Name:" id="email">
+
+			<form id="my-form" action="https://formspree.io/f/myylazel" method="POST">
+				<div class="form-group" data-error="">
+					<input for="full-name" type="text" class="form-control" placeholder="Full Name:" id="full-name" name="full-name" required>
 				</div>
 				<div class="form-group">
-					<input type="email" class="form-control" placeholder="Email Adress:" id="email">
+					<input for="email" type="email" class="form-control" placeholder="Email Address:" id="email" name="email" required>
 				</div>
 				<div class="form-group">
-					<textarea type="email" class="form-control" placeholder="Your Text:" id="email"></textarea>
+					<textarea for="text" type="text" class="form-control" placeholder="Message Me Here:" id="text" name="text" required></textarea>
 				</div>
 				<div>
-					<button class="btn btn-outline-light btn-lg">
+					<button id="form-button" type="submit" class="btn btn-outline-light btn-lg">
 						<a href="mailto:chris@chrisdrewslaw.com">
-						<a style="color:#525252" href="mailto:chris@chrisdrewslaw.com">Submit</a>
+						<a style="color:#525252">SUBMIT</a>
 					</button>
 					</div>
 			</form>
+			<div id="status" class="success">Submitted!</div>
+
 		</div>
 	</div>
 	<!---------------------- Contact end ---------------------------->
