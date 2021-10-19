@@ -35,8 +35,19 @@
 #landing {
   min-height: 90vh;
 }
-/* ~~~~~~~~~~~  About Start ~~~~~~~~~*/
+.v-header{
+  height:100vh;
+  display:flex;
 
+}
+/* ~~~~~~~~~~~  About Start ~~~~~~~~~*/
+ .navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    background: rgba(0, 0, 0, 0.678) !important;
+  }
 #about {
   min-height: 90vh;
 }
@@ -108,19 +119,26 @@
   letter-spacing: 0.1rem;
   background: rgba(0, 0, 0, 0.678);
 }
-@media (min-width: 570px) {
+@media (min-width: 500px) {
   .body {
     overflow-x: hidden;
     font-family: 'DM Sans', sans-serif;
     color: 021331;
-  }
-  .navbar {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 0.9rem;
-    letter-spacing: 0.1rem;
 
-    background: rgba(0, 0, 0, 0.678) !important;
+  }
+
+   .caption {
+    height:100vh;
+    width: 100%;
+    margin:auto;
+    position: absolute;
+    top: 15%;
+    z-index: 1;
+    color: #525252;
+    text-transform: uppercase;
+    padding-right:3rem;
+    padding-left:3rem;
+
   }
   .home {
     min-height: 100vh;
@@ -130,16 +148,12 @@
     position: absolute;
     top: 0px;
     right: 100px;
-     min-height: 90vh;
+    min-height: 90vh;
   }
-  .caption {
-    width: 100%;
-    max-width: 100%;
-    position: absolute;
-    top: 15%;
-    z-index: 1;
-    color: #525252;
-    text-transform: uppercase;
+
+  .video{
+    min-height:100%;
+    min-width:100%;
   }
 
   .caption h1 {
@@ -148,6 +162,7 @@
     letter-spacing: 0.3rem;
     text-shadow: 0.1rem 0.1rem 0.2rem black;
     padding-bottom: 1rem;
+    margin-bottom:0;
   }
   .caption h3 {
     font-size: 2.5rem;
@@ -155,6 +170,18 @@
     letter-spacing: 0.3rem;
     text-shadow: 0.1rem 0.1rem 0.2rem black;
     padding-bottom: 1rem;
+  }
+  .header-overlay{
+    height:100vh;
+    width:100vw;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    opacity:0.85;
+  }
+  .v-header{
+    z-index:2;
   }
 
   .btn-lg {
