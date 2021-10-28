@@ -100,61 +100,7 @@
   border: 2px solid #b8918e;
   cursor: pointer;
 }
-#practice-area {
-  min-height: 90vh;
-}
-.jumbotron {
-  padding: 30px;
-}
-#practice-area .button {
-  border-radius: 5px;
-  border: 2px color #b8918e;
-  width: 40%;
-  padding: 15px 22px;
-  background: #b9c2cb;
-  margin-top: 10px;
-}
-#practice-area .button a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-#practice-area .button:hover {
-  border: 2px solid #b8918e;
-  cursor: pointer;
-}
-
-.container.pt-2 {
-  width: 100%;
-}
-.contact:hover {
-  color: #b8918e;
-}
-.newspaper {
-  column-count: 3;
-  font-size: 20px;
- }
-.footer {
-  font-weight: 700;
-  font-size: 0.9rem;
-  letter-spacing: 0.1rem;
-  background: rgba(0, 0, 0, 0.678);
-}
-
-@media screen and (max-width: 767px) {
-  .home {
-    min-height: 100vh;
-  }
-
-  .body {
-    overflow-x: hidden;
-    font-family: 'DM Sans', sans-serif;
-    color: 021331;
-  }
-
-  .contact {
+.contact {
     position: absolute;
     top: 0px;
     right: 100px;
@@ -246,8 +192,63 @@
 #status.error{
   background-color: #b8918e;
   animation: status 4s ease forwards;
-  color:white;
+ color:white;
 }
+#practice-area {
+  min-height: 90vh;
+}
+.jumbotron {
+  padding: 30px;
+}
+#practice-area .button {
+  border-radius: 5px;
+  border: 2px color #b8918e;
+  width: 40%;
+  padding: 15px 22px;
+  background: #b9c2cb;
+  margin-top: 10px;
+}
+#practice-area .button a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#practice-area .button:hover {
+  border: 2px solid #b8918e;
+  cursor: pointer;
+}
+
+.container.pt-2 {
+  width: 100%;
+}
+.contact:hover {
+  color: #b8918e;
+}
+.newspaper {
+  column-count: 3;
+  font-size: 20px;
+ }
+.footer {
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background: rgba(0, 0, 0, 0.678);
+}
+
+@media screen and (max-width: 767px) {
+  .home {
+    min-height: 100vh;
+  }
+
+  .body {
+    overflow-x: hidden;
+    font-family: 'DM Sans', sans-serif;
+    color: 021331;
+  }
+
+
 }
 
 
