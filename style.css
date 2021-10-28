@@ -32,6 +32,44 @@
 
 /* L A N D I N G    P A G E */
 
+.heading-content{
+  position:absolute;
+  top: 40%;
+  width: 100%;
+  max-width: 100%;
+}
+.video{
+    min-height:100%;
+    min-width:100%;
+  }
+  .caption {
+  height:100vh;
+  width: 100%;
+  margin:auto;
+  position: absolute;
+  top: 15%;
+  z-index: 1;
+  color: #525252;
+  text-transform: uppercase;
+  padding-right:3rem;
+  padding-left:3rem;
+  }
+
+  .caption h1 {
+    font-size: 3.1rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    text-shadow: 0.1rem 0.1rem 0.2rem black;
+    padding-bottom: 1rem;
+    margin-bottom:0;
+  }
+  .caption h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    text-shadow: 0.1rem 0.1rem 0.2rem black;
+    padding-bottom: 1rem;
+  }
 .v-header{
   height:100vh;
   display:flex;
@@ -88,15 +126,6 @@
   cursor: pointer;
 }
 
-/* ~~~~~~~~~~~  Blog Start ~~~~~~~~~*/
-#sec1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: #f8fafb;
-}
 .container.pt-2 {
   width: 100%;
 }
@@ -114,60 +143,27 @@
   background: rgba(0, 0, 0, 0.678);
 }
 
-
 @media screen and (max-width: 767px) {
+  .home {
+    min-height: 100vh;
+  }
 
   .body {
     overflow-x: hidden;
     font-family: 'DM Sans', sans-serif;
     color: 021331;
   }
-  .caption {
-  height:100vh;
-  width: 100%;
-  margin:auto;
-  position: absolute;
-  top: 15%;
-  z-index: 1;
-  color: #525252;
-  text-transform: uppercase;
-  padding-right:3rem;
-  padding-left:3rem;
-  }
-  .home {
-    min-height: 100vh;
-  }
-  .heading-content{
-    position:absolute;
-    top: 40%;
-    width: 100%;
-    max-width: 100%;
-  }
+
   .contact {
     position: absolute;
     top: 0px;
     right: 100px;
     min-height: 90vh;
   }
-  .video{
+  /* .video{
     min-height:100%;
     min-width:100%;
-  }
-  .caption h1 {
-    font-size: 3.1rem;
-    font-weight: 700;
-    letter-spacing: 0.3rem;
-    text-shadow: 0.1rem 0.1rem 0.2rem black;
-    padding-bottom: 1rem;
-    margin-bottom:0;
-  }
-  .caption h3 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    letter-spacing: 0.3rem;
-    text-shadow: 0.1rem 0.1rem 0.2rem black;
-    padding-bottom: 1rem;
-  }
+  } */
   .header-overlay{
     height:100vh;
     width:100vw;
